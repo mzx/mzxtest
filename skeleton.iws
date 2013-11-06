@@ -50,7 +50,7 @@
     <file path="/ListItem.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383510225763" ignored="false" />
     <file path="/Category.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1380387804937" ignored="false" />
     <file path="/Atlas1.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1382050485154" ignored="false" />
-    <file path="/ColorUtils.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383613203474" ignored="false" />
+    <file path="/ColorUtils.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383713866624" ignored="false" />
     <file path="$DOCUMENTS$/AgencyLib/src/com/farata/views/ValidationRulesCallout.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381138378917" ignored="false" />
     <file path="$DOCUMENTS$/sbweb/build_web.xml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381138378917" ignored="false" />
     <file path="$DOCUMENTS$/model4/lib2ant-flex-config.xml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381138378917" ignored="false" />
@@ -71,7 +71,7 @@
     <file path="/SListItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381705445743" ignored="false" />
     <file path="/BuyListTheme.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381704257433" ignored="false" />
     <file path="/BasicItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383504598204" ignored="false" />
-    <file path="/Dummy.txt" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383713289465" ignored="false" />
+    <file path="/Dummy.txt" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383713429550" ignored="false" />
     <file path="$DOCUMENTS$/model4/flex_src/com/farata/views/CustomGrid.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381939374471" ignored="false" />
     <file path="/ListsDetailsScreen.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383410872005" ignored="false" />
     <file path="/ListItemItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383446699618" ignored="false" />
@@ -195,19 +195,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ColorUtils.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ColorUtils.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/util/ColorUtils.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="89" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+            <state line="19" column="24" selection-start="608" selection-end="608" vertical-scroll-proportion="0.28479382">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListItemDetailsScreen.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ListItemDetailsScreen.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/screens/ListItemDetailsScreen.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="100" selection-start="3126" selection-end="3126" vertical-scroll-proportion="0.021850899">
+            <state line="116" column="15" selection-start="3394" selection-end="3394" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#174#204#0" expanded="true" />
               </folding>
@@ -250,9 +250,9 @@
         <option value="$PROJECT_DIR$/src/screens/ListEditScreen.as" />
         <option value="$PROJECT_DIR$/src/model/BuyList.as" />
         <option value="$PROJECT_DIR$/src/components/ColorPicker.as" />
-        <option value="$PROJECT_DIR$/src/util/ColorUtils.as" />
         <option value="$PROJECT_DIR$/src/components/FormItem.as" />
         <option value="$PROJECT_DIR$/src/screens/ListItemDetailsScreen.as" />
+        <option value="$PROJECT_DIR$/src/util/ColorUtils.as" />
       </list>
     </option>
   </component>
@@ -312,6 +312,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="skeleton" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="util" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -350,7 +392,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="project.structure.side.proportion" value="0.24449594" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
@@ -717,7 +759,11 @@
       <created>1383712463287</created>
       <updated>1383712463287</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1">
+      <created>1383713440654</created>
+      <updated>1383713440654</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -756,6 +802,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -769,7 +816,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44513714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22942643" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990025" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -924,13 +970,6 @@
         <state line="1225" column="36" selection-start="31822" selection-end="31822" vertical-scroll-proportion="34.600452" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/ColorUtils.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="89" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$FEATHERS_HOME$/feathers/data/VectorUintListCollectionDataDescriptor.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0">
@@ -950,10 +989,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screens/ListItemDetailsScreen.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="100" selection-start="3126" selection-end="3126" vertical-scroll-proportion="0.021850899">
+        <state line="116" column="15" selection-start="3394" selection-end="3394" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#174#204#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/ColorUtils.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="24" selection-start="608" selection-end="608" vertical-scroll-proportion="0.28479382">
+          <folding />
         </state>
       </provider>
     </entry>
