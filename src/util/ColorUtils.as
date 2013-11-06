@@ -24,6 +24,7 @@ package util
         public static const ANDROID_VIOLET2:uint = 0x9933CC;
         public static const ANDROID_ORANGE1:uint = 0xFFBB33;
         public static const ANDROID_ORANGE2:uint = 0xFF8800;
+
         public static const ac:Array = [ANDROID_BLUE1, ANDROID_BLUE2, ANDROID_VIOLET1, ANDROID_VIOLET2,
             ANDROID_RED1, ANDROID_RED2
             , ANDROID_GREEN1, ANDROID_GREEN2, ANDROID_ORANGE1, ANDROID_ORANGE2];
