@@ -70,7 +70,7 @@
     <file path="/SListItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381705445743" ignored="false" />
     <file path="/BuyListTheme.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381704257433" ignored="false" />
     <file path="/BasicItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383504598204" ignored="false" />
-    <file path="/Dummy.txt" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383714380091" ignored="false" />
+    <file path="/Dummy.txt" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383714396470" ignored="false" />
     <file path="$DOCUMENTS$/model4/flex_src/com/farata/views/CustomGrid.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381939374471" ignored="false" />
     <file path="/ListsDetailsScreen.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383410872005" ignored="false" />
     <file path="/ListItemItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383446699618" ignored="false" />
@@ -794,7 +794,11 @@
       <created>1383714382489</created>
       <updated>1383714382489</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2">
+      <created>1383714402758</created>
+      <updated>1383714402758</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
