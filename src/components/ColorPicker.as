@@ -7,22 +7,15 @@
  */
 package components
 {
-    import components.renderers.BasicItemRenderer;
     import components.renderers.ColorPickerItemRenderer;
 
     import feathers.controls.Button;
-
     import feathers.controls.List;
     import feathers.controls.PickerList;
     import feathers.data.ListCollection;
-    import feathers.layout.TiledColumnsLayout;
     import feathers.layout.TiledRowsLayout;
 
-    import model.Version;
-
     import starling.display.Image;
-
-    import starling.events.Event;
     import starling.events.TouchEvent;
     import starling.events.TouchPhase;
 
@@ -61,7 +54,7 @@ package components
         override protected function createButton():void
         {
             button = new Button()
-            if(_SButton)
+            if (_SButton)
             {
                 _SButton.removeFromParent(true);
                 _SButton = null;

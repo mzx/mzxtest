@@ -12,7 +12,7 @@ package components
 
     public class SButton extends Button
     {
-        public function SButton(upState:Texture, text:String="", downState:Texture=null)
+        public function SButton(upState:Texture, text:String = "", downState:Texture = null)
         {
             super(upState, text, downState);
         }

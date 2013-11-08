@@ -15,6 +15,7 @@ package components
     public class FormItem extends FeathersControl
     {
         private var _component:FeathersControl;
+
         public function FormItem()
         {
             super();
@@ -30,22 +31,21 @@ package components
             super.initialize();
             addChild(_label)
 
-            if(numChildren == 1 && _component !=null)
+            if (numChildren == 1 && _component != null)
             {
                 addChild(_component)
                 _component.x = CBW(256);
             }
 
-            setSizeInternal(CBW(512),CBW(80),true)
+            setSizeInternal(CBW(512), CBW(80), true)
         }
-
 
 
         override protected function draw():void
         {
             super.draw();
-                      //TODO
-            if(1)
+            //TODO
+            if (1)
             {
                 _label.text = text;
             }

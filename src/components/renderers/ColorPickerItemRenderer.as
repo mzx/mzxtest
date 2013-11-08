@@ -1,15 +1,11 @@
 package components.renderers
 {
-    import feathers.controls.Label;
     import feathers.controls.List;
     import feathers.controls.renderers.IListItemRenderer;
     import feathers.core.FeathersControl;
 
     import flash.geom.Point;
 
-    import starling.animation.Transitions;
-    import starling.animation.Tween;
-    import starling.core.Starling;
     import starling.display.Quad;
     import starling.events.Event;
     import starling.events.Touch;
@@ -17,7 +13,6 @@ package components.renderers
     import starling.events.TouchPhase;
 
     import util.CBW;
-    import util.ColorUtils;
 
     public class ColorPickerItemRenderer extends FeathersControl implements IListItemRenderer
     {
@@ -30,7 +25,7 @@ package components.renderers
             this.addEventListener(Event.REMOVED_FROM_STAGE, removedFromStageHandler);
 
             height = CBW(124);
-            width= CBW(124);
+            width = CBW(124);
         }
 
         protected var touchPointID:int = -1;
