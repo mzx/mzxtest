@@ -40,7 +40,7 @@
     <file path="/Main.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1382052186683" ignored="false" />
     <file path="/Skeleton-app.xml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1380211652699" ignored="false" />
     <file path="/StartScreen.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1380237589641" ignored="false" />
-    <file path="/a.dummy" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383616267937" ignored="false" />
+    <file path="/a.dummy" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383816374210" ignored="false" />
     <file path="/ListsScreen.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381750662643" ignored="false" />
     <file path="/Model.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1380411078443" ignored="false" />
     <file path="/fragment.js" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381939832896" ignored="false" />
@@ -70,7 +70,7 @@
     <file path="/SListItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381705445743" ignored="false" />
     <file path="/BuyListTheme.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381704257433" ignored="false" />
     <file path="/BasicItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383504598204" ignored="false" />
-    <file path="/Dummy.txt" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383760123058" ignored="false" />
+    <file path="/Dummy.txt" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383814742481" ignored="false" />
     <file path="$DOCUMENTS$/model4/flex_src/com/farata/views/CustomGrid.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381939374471" ignored="false" />
     <file path="/ListsDetailsScreen.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383410872005" ignored="false" />
     <file path="/ListItemItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383446699618" ignored="false" />
@@ -112,6 +112,12 @@
     <file path="/ColorPickerItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1382915014042" ignored="false" />
     <file path="/PickerList.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383340863498" ignored="false" />
     <file path="/FormItem.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383616878906" ignored="false" />
+    <file path="$DOCUMENTS$/AgencyLib/src/com/farata/views/carrierAgencies/CarrierAgencyProducerCalloutButton.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383817318709" ignored="false" />
+    <file path="/CarrierAgencyProducerCalloutButton.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383817313499" ignored="false" />
+    <file path="$DOCUMENTS$/SureLC_WebTheme/src/defaults.css" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383816644828" ignored="false" />
+    <file path="/defaults.css" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383816301331" ignored="false" />
+    <file path="$DOCUMENTS$/AgencyLib/src/com/farata/views/CarrierAgencies.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383816919749" ignored="false" />
+    <file path="/CarrierAgencies.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383816916857" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,10 +182,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ColorPicker.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ColorPicker.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/ColorPicker.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="61" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+            <state line="37" column="61" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0372807">
               <folding />
             </state>
           </provider>
@@ -203,10 +209,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Atlas1.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Atlas1.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/Atlas1.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="37" column="35" selection-start="1275" selection-end="1285" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -327,38 +333,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -789,7 +763,11 @@
       <created>1383714425973</created>
       <updated>1383714425973</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="3">
+      <created>1383760886390</created>
+      <updated>1383760886390</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -814,7 +792,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1600" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5660848" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -828,6 +806,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -835,13 +814,12 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2953668" sideWeight="0.67206985" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2953668" sideWeight="0.6009975" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12676963" sideWeight="0.55486286" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44513714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Duplicates" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22942643" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990025" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
@@ -888,7 +866,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="3" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -904,6 +882,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="1" />
     <MESSAGE value="2" />
+    <MESSAGE value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -958,15 +937,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ColorPicker.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="61" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -996,8 +968,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="28" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.6644737">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#176#207#0" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="e#176#207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1023,7 +995,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/Atlas1.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="37" column="35" selection-start="1275" selection-end="1285" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/ColorPicker.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="61" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0372807">
           <folding />
         </state>
       </provider>
