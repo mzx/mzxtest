@@ -8,12 +8,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="169d0977-70d0-4c8d-97a7-9ed5753780fc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tactile/Gesture.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/FormItem.as" afterPath="$PROJECT_DIR$/src/components/FormItem.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/model/ListItem.as" afterPath="$PROJECT_DIR$/src/model/ListItem.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screens/ListItemDetailsScreen.as" afterPath="$PROJECT_DIR$/src/screens/ListItemDetailsScreen.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/renderers/ListItemItemRenderer.as" afterPath="$PROJECT_DIR$/src/components/renderers/ListItemItemRenderer.as" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Skeleton.as" afterPath="$PROJECT_DIR$/src/Skeleton.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skeleton.iws" afterPath="$PROJECT_DIR$/skeleton.iws" />
     </list>
     <ignored path="skeleton.iws" />
@@ -53,7 +47,7 @@
     <file path="/SListItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381705445743" ignored="false" />
     <file path="/BuyListTheme.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381704257433" ignored="false" />
     <file path="/BasicItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383504598204" ignored="false" />
-    <file path="/Dummy.txt" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384068643617" ignored="false" />
+    <file path="/Dummy.txt" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384142268521" ignored="false" />
     <file path="$DOCUMENTS$/model4/flex_src/com/farata/views/CustomGrid.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381939374471" ignored="false" />
     <file path="/ListsDetailsScreen.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383410872005" ignored="false" />
     <file path="/ListItemItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383887987310" ignored="false" />
@@ -906,7 +900,11 @@
       <created>1383884520990</created>
       <updated>1383884520990</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="custom gesture recognition">
+      <created>1384142269628</created>
+      <updated>1384142269628</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1006,7 +1004,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="3" />
+    <option name="LAST_COMMIT_MESSAGE" value="custom gesture recognition" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1023,6 +1021,7 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="3" />
+    <MESSAGE value="custom gesture recognition" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
