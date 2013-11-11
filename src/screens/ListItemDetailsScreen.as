@@ -40,6 +40,7 @@ package screens
         private var _textInput:TextInput = new TextInput();
         private var _colorPicker:ColorPicker = new ColorPicker();
         private var _qtyInput:NumericStepper;
+        private var _priceInput:TextInput;
 
         override protected function initialize():void
         {
@@ -72,6 +73,19 @@ package screens
             fi2.text = "Quantity";
             fi2.component = addQtyInput();
             addChild(fi2)
+
+            var fi3:FormItem = new FormItem();
+            fi3.text = "Price";
+            fi3.component = addPriceInput();
+            addChild(fi3)
+        }
+
+        private function addPriceInput():FeathersControl
+        {
+            _priceInput =  new TextInput();
+            _priceInput.prompt = "enter price"
+            _priceInput.text = Model.selectedListItem.price
+            return _priceInput
         }
 
         private function addQtyInput():FeathersControl
@@ -79,8 +93,8 @@ package screens
             _qtyInput = new NumericStepper();
             _qtyInput.minimum = 0;
             _qtyInput.maximum = 100;
-            _qtyInput.step = 0.33;
-            _qtyInput.value = 12;
+            _qtyInput.step = 1;
+            _qtyInput.value = Model.selectedListItem.qty;
             _qtyInput.addEventListener( Event.CHANGE, stepper_changeHandler );
 
             return _qtyInput
@@ -195,6 +209,8 @@ package screens
         {
             Model.selectedListItem.label = _textInput.text;
             Model.selectedListItem.color = _colorPicker.selectedItem as uint;
+            Model.selectedListItem.price = _priceInput.text;
+            Model.selectedListItem.qty = _qtyInput.value;
 
             Model.savelists();
 

@@ -39,6 +39,7 @@ package components.renderers
 
         protected var touchPointID:int = -1;
         protected var itemLabel:Label;
+        protected var itemSubLabel:Label;
         private var bg:Quad;
         private var bg1:Quad;
         private var disableScroll:Boolean;
@@ -128,11 +129,11 @@ package components.renderers
             bg1 = new Quad(10, 10, ColorUtils.TUSCAN)
             addChild(bg1);
 
-            if (!this.itemLabel)
-            {
-                this.itemLabel = new Label();
-                this.addChild(this.itemLabel);
-            }
+            this.itemLabel = new Label();
+            this.addChild(this.itemLabel);
+
+            this.itemSubLabel = new Label();
+            this.addChild(this.itemSubLabel);
 
             addAccessory();
 
@@ -162,6 +163,9 @@ package components.renderers
 
                 itemLabel.x = CBW(132)
                 itemLabel.y = CBW(8)
+
+                itemSubLabel.x = CBW(132)
+                itemSubLabel.y = CBW(40)
             }
         }
 
@@ -196,11 +200,13 @@ package components.renderers
             if (this._data)
             {
                 this.itemLabel.text = this._data[owner.itemRendererProperties.labelField].toString();
+                this.itemSubLabel.text = "\t" + this._data.qty +" / "+_data.price;
                 bg1.color = _data.color
             }
             else
             {
                 this.itemLabel.text = "";
+                this.itemSubLabel.text = "";
             }
         }
 

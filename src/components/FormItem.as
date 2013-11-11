@@ -10,6 +10,10 @@ package components
     import feathers.controls.Label;
     import feathers.core.FeathersControl;
 
+    import flash.events.GestureEvent;
+
+    import tactile.Gesture;
+
     import util.CBW;
 
     public class FormItem extends FeathersControl
@@ -31,6 +35,8 @@ package components
             super.initialize();
             addChild(_label)
 
+            new Gesture(_label).onTap(testFunction);
+
             if (numChildren == 1 && _component != null)
             {
                 addChild(_component)
@@ -38,6 +44,11 @@ package components
             }
 
             setSizeInternal(CBW(512), CBW(80), true)
+        }
+
+        private function testFunction():void
+        {
+            trace(arguments.callee)
         }
 
 

@@ -17,8 +17,8 @@ package model
         public var category:Category;
 
 
-        public var qty:Number;
-        public var price:Number;
+        public var qty:Number = 1;
+        public var price:String = "0";
 
         public var color:uint = ColorUtils.TUSCAN;
     }

@@ -25,11 +25,13 @@ package
             stage.align = StageAlign.TOP_LEFT;
 
             Starling.handleLostContext = true;
+            Starling.multitouchEnabled = true;
 
             _starling = new Starling(Main, stage);
             //_starling.enableErrorChecking = true;
             _starling.antiAliasing = 16;
             _starling.showStats = true;
+            _starling.simulateMultitouch = true;
             _starling.start();
 
             this.stage.addEventListener(Event.RESIZE, stage_resizeHandler, false, int.MAX_VALUE, true);
