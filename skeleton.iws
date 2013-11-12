@@ -8,16 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="169d0977-70d0-4c8d-97a7-9ed5753780fc" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/renderers/BasicItemRenderer.as" afterPath="$PROJECT_DIR$/src/components/renderers/BasicItemRenderer.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/FormItem.as" afterPath="$PROJECT_DIR$/src/components/FormItem.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tactile/Gesture.as" afterPath="$PROJECT_DIR$/src/tactile/Gesture.as" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skeleton.iws" afterPath="$PROJECT_DIR$/skeleton.iws" />
     </list>
     <ignored path="skeleton.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383968853984" ignored="false" />
+    <file path="/fragment.js2" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384231505512" ignored="false" />
     <file path="/Skeleton.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384069044248" ignored="false" />
     <file path="/Main.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1382052186683" ignored="false" />
     <file path="/Skeleton-app.xml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1380211652699" ignored="false" />
     <file path="/StartScreen.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1380237589641" ignored="false" />
-    <file path="/a.dummy" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384068677792" ignored="false" />
+    <file path="/a.dummy" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384230322445" ignored="false" />
     <file path="/ListsScreen.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381750662643" ignored="false" />
     <file path="/Model.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1380411078443" ignored="false" />
     <file path="/fragment.js" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384106830450" ignored="false" />
@@ -46,8 +49,8 @@
     <file path="/ListEditScreen.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383504170093" ignored="false" />
     <file path="/SListItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381705445743" ignored="false" />
     <file path="/BuyListTheme.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381704257433" ignored="false" />
-    <file path="/BasicItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383504598204" ignored="false" />
-    <file path="/Dummy.txt" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384142268521" ignored="false" />
+    <file path="/BasicItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384236139711" ignored="false" />
+    <file path="/Dummy.txt" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384221328533" ignored="false" />
     <file path="$DOCUMENTS$/model4/flex_src/com/farata/views/CustomGrid.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1381939374471" ignored="false" />
     <file path="/ListsDetailsScreen.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383410872005" ignored="false" />
     <file path="/ListItemItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383887987310" ignored="false" />
@@ -88,14 +91,14 @@
     <file path="/ColorPicker.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383613120618" ignored="false" />
     <file path="/ColorPickerItemRenderer.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1382915014042" ignored="false" />
     <file path="/PickerList.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383340863498" ignored="false" />
-    <file path="/FormItem.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384072101680" ignored="false" />
+    <file path="/FormItem.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384228909708" ignored="false" />
     <file path="$DOCUMENTS$/AgencyLib/src/com/farata/views/carrierAgencies/CarrierAgencyProducerCalloutButton.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383817318709" ignored="false" />
     <file path="/CarrierAgencyProducerCalloutButton.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383817313499" ignored="false" />
     <file path="$DOCUMENTS$/SureLC_WebTheme/src/defaults.css" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383816644828" ignored="false" />
     <file path="/defaults.css" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383816301331" ignored="false" />
     <file path="$DOCUMENTS$/AgencyLib/src/com/farata/views/CarrierAgencies.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383816919749" ignored="false" />
     <file path="/CarrierAgencies.mxml" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1383816916857" ignored="false" />
-    <file path="/Gesture.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384141572953" ignored="false" />
+    <file path="/Gesture.as" changelist="169d0977-70d0-4c8d-97a7-9ed5753780fc" time="1384233194232" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,10 +163,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Gesture.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Gesture.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tactile/Gesture.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="84" column="42" selection-start="3085" selection-end="3085" vertical-scroll-proportion="0.46505377">
+            <state line="82" column="38" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#173#197#0" expanded="true" />
               </folding>
@@ -171,49 +174,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TouchPhase.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$STARLING_HOME$/starling/src/starling/events/TouchPhase.as">
+      <file leaf-file-name="BasicItemRenderer.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/renderers/BasicItemRenderer.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="22" selection-start="1140" selection-end="1140" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TouchEvent.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$STARLING_HOME$/starling/src/starling/events/TouchEvent.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="191" column="132" selection-start="7982" selection-end="7982" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Touch.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$STARLING_HOME$/starling/src/starling/events/Touch.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="212" column="66" selection-start="9061" selection-end="9061" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListItemItemRenderer.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/renderers/ListItemItemRenderer.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="277" column="38" selection-start="7686" selection-end="7686" vertical-scroll-proportion="0.0">
+            <state line="33" column="23" selection-start="849" selection-end="849" vertical-scroll-proportion="0.4247312">
               <folding>
-                <element signature="e#35#61#0" expanded="true" />
+                <element signature="e#35#66#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormItem.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/FormItem.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="18" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -243,7 +210,6 @@
         <option value="$PROJECT_DIR$/src/model/Model.as" />
         <option value="$PROJECT_DIR$/src/screens/ListsDetailsScreen.as" />
         <option value="$PROJECT_DIR$/src/screens/ListsScreen.as" />
-        <option value="$PROJECT_DIR$/src/components/renderers/BasicItemRenderer.as" />
         <option value="$PROJECT_DIR$/src/screens/ListEditScreen.as" />
         <option value="$PROJECT_DIR$/src/model/BuyList.as" />
         <option value="$PROJECT_DIR$/src/util/CBW.as" />
@@ -256,6 +222,7 @@
         <option value="$PROJECT_DIR$/src/touch/Gesture.as" />
         <option value="$PROJECT_DIR$/src/components/FormItem.as" />
         <option value="$PROJECT_DIR$/src/tactile/Gesture.as" />
+        <option value="$PROJECT_DIR$/src/components/renderers/BasicItemRenderer.as" />
       </list>
     </option>
   </component>
@@ -307,7 +274,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -322,70 +289,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="events" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="starling" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="skeleton" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -401,24 +304,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="skeleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tactile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -464,7 +349,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -506,18 +391,18 @@
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="V:\dev\skeleton\src\components\renderers" />
+      <recent name="V:\dev\skeleton\src\screens" />
+      <recent name="V:\dev\skeleton\src\util" />
+      <recent name="V:\dev\skeleton\src" />
+    </key>
     <key name="CreateActionScriptClassDialog.DESTINATION_PACKAGE_RECENT_KEY">
       <recent name="touch" />
       <recent name="components" />
       <recent name="components.renderers" />
       <recent name="themes" />
       <recent name="screens" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="V:\dev\skeleton\src\components\renderers" />
-      <recent name="V:\dev\skeleton\src\screens" />
-      <recent name="V:\dev\skeleton\src\util" />
-      <recent name="V:\dev\skeleton\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="V:\dev\skeleton\src\model" />
@@ -904,7 +789,11 @@
       <created>1384142269628</created>
       <updated>1384142269628</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="custom gesture recognition">
+      <created>1384142279741</created>
+      <updated>1384142279741</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -938,7 +827,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44513714" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47256857" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.47256857" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -952,7 +841,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37129986" sideWeight="0.6009975" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37129986" sideWeight="0.55486286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32793018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12676963" sideWeight="0.55486286" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329602" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -1025,7 +914,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="44" />
+      <option name="time" value="47" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1033,11 +922,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/ColorPicker.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="64" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$FEATHERS_HOME$/feathers/data/VectorUintListCollectionDataDescriptor.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="40" column="0" selection-start="902" selection-end="902" vertical-scroll-proportion="0.0" />
@@ -1045,11 +929,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/SButton.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="36" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="12" column="36" selection-start="284" selection-end="284" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$STARLING_HOME$/starling/src/starling/display/Button.as">
@@ -1059,54 +939,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="46" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="40" column="46" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Skeleton.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#165#193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/renderers/BasicItemRenderer.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="286" column="17" selection-start="7878" selection-end="8144" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="38" column="0" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$FEATHERS_HOME$/feathers/controls/Button.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3007" column="16" selection-start="85767" selection-end="85783" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="3007" column="16" selection-start="85767" selection-end="85783" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$STARLING_HOME$/starling/src/starling/events/EventDispatcher.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="23" selection-start="6598" selection-end="6598" vertical-scroll-proportion="0.0">
+        <state line="146" column="23" selection-start="6598" selection-end="6598" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$STARLING_HOME$/starling/src/starling/events/TouchEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="191" column="132" selection-start="7982" selection-end="7982" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/FormItem.as">
+    <entry file="file://$PROJECT_DIR$/src/components/renderers/ListItemItemRenderer.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="18" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../ide/flashBuilder_4_6/Adobe Flash Builder 4.6/sdks/4.6.0_air38/frameworks/libs/air/airglobal.swc!/library.swf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3395" column="25" selection-start="150768" selection-end="150768" vertical-scroll-proportion="0.0">
+        <state line="265" column="49" selection-start="7341" selection-end="7341" vertical-scroll-proportion="0.6851385">
           <folding />
         </state>
       </provider>
@@ -1118,18 +978,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/renderers/ListItemItemRenderer.as">
+    <entry file="file://$PROJECT_DIR$/src/components/FormItem.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="277" column="38" selection-start="7686" selection-end="7686" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#35#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$STARLING_HOME$/starling/src/starling/events/TouchEvent.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="132" selection-start="7982" selection-end="7982" vertical-scroll-proportion="0.0">
+        <state line="55" column="40" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1141,11 +992,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/../ide/flashBuilder_4_6/Adobe Flash Builder 4.6/sdks/4.6.0_air38/frameworks/libs/air/airglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3389" column="29" selection-start="150518" selection-end="150518" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screens/ListsScreen.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tactile/Gesture.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="42" selection-start="3085" selection-end="3085" vertical-scroll-proportion="0.46505377">
+        <state line="82" column="38" selection-start="2680" selection-end="2680" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#173#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/renderers/BasicItemRenderer.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="23" selection-start="849" selection-end="849" vertical-scroll-proportion="0.4247312">
+          <folding>
+            <element signature="e#35#66#0" expanded="true" />
           </folding>
         </state>
       </provider>

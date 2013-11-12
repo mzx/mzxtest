@@ -12,9 +12,8 @@ package components.renderers
     import starling.core.Starling;
     import starling.display.Quad;
     import starling.events.Event;
-    import starling.events.Touch;
-    import starling.events.TouchEvent;
-    import starling.events.TouchPhase;
+
+    import tactile.Gesture;
 
     import util.CBW;
     import util.ColorUtils;
@@ -22,18 +21,24 @@ package components.renderers
     public class BasicItemRenderer extends FeathersControl implements IListItemRenderer
     {
 
-        private static const HELPER_POINT:Point = new Point();
-
         public function BasicItemRenderer()
         {
-            this.addEventListener(TouchEvent.TOUCH, touchHandler);
-            this.addEventListener(Event.REMOVED_FROM_STAGE, removedFromStageHandler);
+
+            new Gesture(this).onTap(tapHandler).onSlide(slideHandler);
 
             height = CBW(124);
         }
 
-        protected var touchPointID:int = -1;
+        private function slideHandler(delta:Point):void
+        {
+            x = delta.x
+            trace("renderer slide")
+        }
+
         protected var itemLabel:Label;
+        protected var bg:Quad;
+        protected var bg1:Quad;
+        protected var disableScroll:Boolean;
 
         protected var _index:int = -1;
 
@@ -95,9 +100,6 @@ package components.renderers
         }
 
         protected var _isSelected:Boolean;
-        private var bg:Quad;
-        private var bg1:Quad;
-        private var disableScroll:Boolean;
 
         public function get isSelected():Boolean
         {
@@ -203,93 +205,9 @@ package components.renderers
             this.itemLabel.height = this.actualHeight;
         }
 
-        protected function owner_scrollHandler(event:Event):void
+        private function tapHandler():void
         {
-            this.touchPointID = -1;
-        }
-
-
-        protected function touchHandler(event:TouchEvent):void
-        {
-            const touches:Vector.<Touch> = event.getTouches(this);
-            if (touches.length == 0)
-            {
-                //hover has ended
-                return;
-            }
-
-            if (this.touchPointID >= 0)
-            {
-                var touch:Touch;
-                for each(var currentTouch:Touch in touches)
-                {
-                    if (currentTouch.id == this.touchPointID)
-                    {
-                        touch = currentTouch;
-                        break;
-                    }
-                }
-                if (!touch)
-                {
-                    return;
-                }
-
-
-                var movement:Point = touch.getMovement(this);
-                switch (touch.phase)
-                {
-                    case TouchPhase.BEGAN:
-                        break
-                    case TouchPhase.MOVED:
-                        if (Math.abs(movement.x) > Math.abs(movement.y))
-                        {
-                            disableScroll = true;
-                        }
-
-                        if (width / 3 < Math.abs(x))
-                        {
-                            bg.color = 0xFF4444;
-                        }
-                        else
-                        {
-                            bg.color = ColorUtils.DARK;
-                        }
-
-                        this.x += touch.getMovement(this).x
-
-
-                        if (disableScroll)
-                        {
-                            event.stopPropagation();
-                        }
-                        break
-                    case TouchPhase.ENDED:
-                        touchPointID = -1
-
-                        if (!disableScroll)
-                        {
-                            isSelected = true;
-                        }
-                        disableScroll = false;
-                        moveBackOrDelete();
-                        break
-                }
-            }
-            else
-            {
-                for each(touch in touches)
-                {
-                    if (touch.phase == TouchPhase.BEGAN)
-                    {
-                        this.touchPointID = touch.id;
-                        return;
-                    }
-                }
-            }
-
-
-            //isSelected = true;
-
+            isSelected = true;
         }
 
         private function moveBackOrDelete():void
@@ -319,59 +237,11 @@ package components.renderers
 
         }
 
-        protected function touchHandler2(event:TouchEvent):void
+        protected function owner_scrollHandler(event:Event):void
         {
-            const touches:Vector.<Touch> = event.getTouches(this);
-            if (touches.length == 0)
-            {
-                //hover has ended
-                return;
-            }
-            if (this.touchPointID >= 0)
-            {
-                var touch:Touch;
-                for each(var currentTouch:Touch in touches)
-                {
-                    if (currentTouch.id == this.touchPointID)
-                    {
-                        touch = currentTouch;
-                        break;
-                    }
-                }
-                if (!touch)
-                {
-                    return;
-                }
-                if (touch.phase == TouchPhase.ENDED)
-                {
-                    this.touchPointID = -1;
-
-                    touch.getLocation(this.stage, HELPER_POINT);
-                    //check if the touch is still over the target
-                    const isInBounds:Boolean = this.contains(this.stage.hitTest(HELPER_POINT, true));
-                    if (isInBounds)
-                    {
-                        this.isSelected = true;
-                    }
-                    return;
-                }
-            }
-            else
-            {
-                for each(touch in touches)
-                {
-                    if (touch.phase == TouchPhase.BEGAN)
-                    {
-                        this.touchPointID = touch.id;
-                        return;
-                    }
-                }
-            }
         }
 
-        protected function removedFromStageHandler(event:Event):void
-        {
-            this.touchPointID = -1;
-        }
+
+
     }
 }

@@ -10,7 +10,6 @@ package tactile
     import flash.geom.Point;
 
     import starling.display.DisplayObject;
-    import starling.events.Event;
     import starling.events.Touch;
     import starling.events.TouchEvent;
     import starling.events.TouchPhase;
@@ -34,8 +33,15 @@ package tactile
         public static const PINCH:String = "PINCH"
         //   Two or more fingers touch the screen and move farther apart.
         public static const STRETCH:String = "STRETCH"
+
+
         private static const touchQue:Vector.<Touch> = new <Touch>[];
         private static const touchQueTimeStamps:Vector.<Number> = new <Number>[];
+        private static const MAX_TAP_DURATION:Number = 0.5;
+
+
+        //TODO should be dpi based
+        private static const MAX_TAP_MOVEMENT:Number = 20;
 
         public function Gesture(target:DisplayObject)
         {
@@ -43,14 +49,16 @@ package tactile
             target.addEventListener(TouchEvent.TOUCH, touchHandler)
         }
 
-
-        //TODO should be dpi based
-        private var tapTreshold = 30;
         private var target:DisplayObject;
         private var tapHandler:Function;
         private var totalMovement:Point;
         private var startTouch:Touch;
-        private var maxTapDuration:Number = 0.5;
+        private var slideHandler:Function;
+
+        private function get gestureDuration():Number
+        {
+            return (touchQueTimeStamps.length < 2) ? 0 : Math.abs(touchQueTimeStamps[0] - touchQueTimeStamps[touchQueTimeStamps.length - 1]);
+        }
 
         public function onTap(handler:Function):Gesture
         {
@@ -58,10 +66,55 @@ package tactile
             return this;
         }
 
+        public function onSlide(handler:Function):Gesture
+        {
+            slideHandler = handler
+            return this
+        }
+
+        private function touchMove():void
+        {
+            slide();
+        }
+
+        private function slide():void
+        {
+            trace("slide")
+            slideHandler(totalMovement);
+        }
+
+        private function touchEnded():void
+        {
+            //target.removeEventListener(Event.ENTER_FRAME, onTargetEnterFrame);
+
+            if (gestureDuration < MAX_TAP_DURATION && totalMovement.length < MAX_TAP_MOVEMENT)
+            {
+                tap()
+            }
+        }
+
+        private function tap():void
+        {
+
+            trace("recognized TAP")
+            if (tapHandler) tapHandler();
+        }
+
+        private function resetRecognition():void
+        {
+            totalMovement = new Point();
+            touchQue.length = 1;
+            touchQue[0] = startTouch;
+            touchQueTimeStamps.length = 1
+            touchQueTimeStamps[0] = startTouch.timestamp;
+
+            //target.addEventListener(Event.ENTER_FRAME, onTargetEnterFrame);
+        }
+
         private function touchHandler(event:TouchEvent):void
         {
             const touches:Vector.<Touch> = event.getTouches(target);
-            event.getTouches(target,null,touchQue)
+            event.getTouches(target, null, touchQue)
             var touch:Touch;
 
             for each(touch in touches)
@@ -69,7 +122,7 @@ package tactile
 
 //                trace(touch.id)
                 touchQueTimeStamps.length = touchQue.length;
-                touchQueTimeStamps[touchQue.length-1] = touch.timestamp
+                touchQueTimeStamps[touchQue.length - 1] = touch.timestamp
                 switch (touch.phase)
                 {
                     case TouchPhase.BEGAN :
@@ -79,7 +132,8 @@ package tactile
                     case TouchPhase.MOVED:
                         var movement:Point = touch.getMovement(target);
                         totalMovement = totalMovement.add(movement);
-                        trace(totalMovement)
+                        touchMove();
+
                         break
                     case TouchPhase.STATIONARY:
                         trace(event)
@@ -93,39 +147,11 @@ package tactile
             }
         }
 
-        private function touchEnded():void
-        {
-
-
-            target.removeEventListener(Event.ENTER_FRAME, onTargetEnterFrame);
-
-            var timeDelta:Number = touchQueTimeStamps[0] - touchQueTimeStamps[touchQueTimeStamps.length-1];
-            //trace(timeDelta,' +-')
-            if (timeDelta < maxTapDuration)
-            {
-                tap()
-            }
-        }
-
-        private function tap():void
-        {
-            if(tapHandler) tapHandler();
-        }
-
-
-
-        private function resetRecognition():void
-        {
-            totalMovement = new Point();
-            touchQue.length = 0;
-
-            target.addEventListener(Event.ENTER_FRAME, onTargetEnterFrame);
-        }
-
-        private function onTargetEnterFrame(event:Event):void
-        {
-            if(touchQue.length==0) return
-           trace(touchQue[touchQue.length-1].phase)
-        }
+//        private function onTargetEnterFrame(event:Event):void
+//        {
+//            if(touchQue.length==0) return
+//
+//            trace(touchQue.length)
+//        }
     }
 }

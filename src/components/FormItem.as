@@ -48,7 +48,7 @@ package components
 
         private function testFunction():void
         {
-            trace(arguments.callee)
+            trace("tapHandler")
         }
 
 
